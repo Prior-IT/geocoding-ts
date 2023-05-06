@@ -1,5 +1,5 @@
 {
-  "name": "@priorit/geocoding-ts",
+  "name": "@priorit/geocoding",
   "version": "1.0.0",
   "description": "Modern TypeScript library that allows geocoding and reverse geocoding through the OpenStreetMaps Nominatim API",
   "keywords": [
