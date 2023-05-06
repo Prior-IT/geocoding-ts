@@ -1,15 +1,21 @@
-# Geocoding-TS
+# Geocoding
 
 Modern TypeScript library that allows geocoding and reverse geocoding through the OpenStreetMap Nominatim API
 
 ## Installation:
 Install using your favourite package manager:
 
-`npm install @priorit/geocoding`
+```
+npm install @priorit/geocoding
+```
 
-`pnpm add @priorit/geocoding`
+```
+pnpm add @priorit/geocoding
+```
 
-`yarn add @priorit/geocoding`
+```
+yarn add @priorit/geocoding
+```
 
 ## Usage:
 
