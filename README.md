@@ -1,2 +1,2 @@
-# geocoding-ts
+# Geocoding-TS
 Modern TypeScript library that allows geocoding and reverse geocoding through the OpenStreetMap Nominatim API
