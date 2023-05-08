@@ -1,6 +1,6 @@
 {
   "name": "@prior-it/geocoding",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Modern TypeScript library that allows geocoding and reverse geocoding through the OpenStreetMaps Nominatim API",
   "keywords": [
     "nomimatim",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "lib/index.ts",
   "scripts": {
-    "test": "npx ts-to-zod lib/index.ts tests/types.ts && npx jest --maxWorkers=2",
+    "test": "npx ts-to-zod lib/geocoding.ts tests/types.ts && npx jest --maxWorkers=2",
     "build": "tsc"
   },
   "files": [
