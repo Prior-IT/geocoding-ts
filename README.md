@@ -6,15 +6,15 @@ Modern TypeScript library that allows geocoding and reverse geocoding through th
 Install using your favourite package manager:
 
 ```
-npm install @priorit/geocoding
+npm install @prior-it/geocoding
 ```
 
 ```
-pnpm add @priorit/geocoding
+pnpm add @prior-it/geocoding
 ```
 
 ```
-yarn add @priorit/geocoding
+yarn add @prior-it/geocoding
 ```
 
 ## Requirements:
@@ -24,7 +24,7 @@ This library will only work with NodeJS 18 or later.
 ## Usage:
 
 ```
-import { Geocoding } from "@priorit/geocoding";
+import { Geocoding } from "@prior-it/geocoding";
 
 // Regular queries
 const response = await Geocoding.search("prior-it hq");
