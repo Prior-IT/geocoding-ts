@@ -83,8 +83,4 @@ export const placeSchema = z.object({
   namedetails: z.record(z.string()).optional(),
   address: addressSchema.optional(),
   name: z.string().optional().nullable(),
-  geojson: z.any().optional(),
-  geokml: z.string().optional(),
-  svg: z.string().optional(),
-  geotext: z.string().optional(),
 });
