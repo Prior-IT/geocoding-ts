@@ -1,8 +1,11 @@
 export namespace Geocoding {
+  /**
+   * Search for a location by a structured or unstructured query.
+   */
   export async function search(
     query: string | AddressQuery,
     options: SearchOptions = DefaultSearchOptions
-  ) {
+  ): Promise<Place[]> {
     const queryOptions = parseOptions(options);
     const queryString = parseQuery(query);
     const result = await fetch(
@@ -11,27 +14,30 @@ export namespace Geocoding {
     return (await result.json()) as Promise<Place[]>;
   }
 
+  /**
+   * Reverse geocode coordinates to get a location.
+   */
   export async function reverse(
     lat: number | string,
     lon: number | string,
     options: ReverseOptions = DefaultReverseOptions
-  ) {
+  ): Promise<Place | GeocodingError> {
     const queryOptions = parseOptions(options);
     const result = await fetch(
       `https://nominatim.openstreetmap.org/reverse.php?lat=${lat}&lon=${lon}&format=jsonv2${queryOptions}`
     );
-    const json = await result.json()
+    const json = await result.json();
     if ("error" in json) {
-        json.is_error = true
-        return json as GeocodingError
+      json.is_error = true;
+      return json as GeocodingError;
     } else {
-        json.is_error = false
-        return json as Place
+      json.is_error = false;
+      return json as Place;
     }
   }
 }
 
-// UTILITY FUNCTIONS
+// INTERNAL: UTILITY FUNCTIONS
 
 function parseOptions(opt: SearchOptions | ReverseOptions): string {
   let options = [] as string[];
