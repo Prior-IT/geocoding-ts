@@ -17,6 +17,10 @@ pnpm add @priorit/geocoding
 yarn add @priorit/geocoding
 ```
 
+## Requirements:
+This library will only work with NodeJS 18 or later.
+
+
 ## Usage:
 
 ```
