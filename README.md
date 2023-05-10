@@ -23,7 +23,7 @@ This library will only work with NodeJS 18 or later.
 
 ## Usage:
 
-```
+```ts
 import { Geocoding } from "@prior-it/geocoding";
 
 // Regular queries
