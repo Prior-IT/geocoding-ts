@@ -1,4 +1,4 @@
-import { Geocoding } from "../lib";
+import { Geocoding } from "../src";
 import { geocodingErrorSchema, placeSchema } from "./types";
 
 describe("Search", () => {

@@ -22,7 +22,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "npx ts-to-zod lib/geocoding.ts tests/types.ts && npx jest --maxWorkers=2",
+    "test": "npx ts-to-zod src/geocoding.ts tests/types.ts && npx jest --maxWorkers=2",
     "build": "tsc",
     "clean-build": "rm -rf lib && pnpm build"
   },
