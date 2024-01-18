@@ -11,8 +11,11 @@
     "map",
     "openstreetmap",
     "geocoding",
+    "geocode",
     "reverse",
-    "reversegeocoding"
+    "reversegeocoding",
+    "coordinates",
+    "location"
   ],
   "author": "Robin Arys <robin.arys@prior-it.be>",
   "license": "MIT",
