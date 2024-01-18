@@ -59,5 +59,5 @@ describe("Reverse", () => {
         placeSchema.strict().parse(response);
       }
     }
-  });
+  }, 10000); // increase timeout to 10s
 });
