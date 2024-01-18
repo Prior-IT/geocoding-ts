@@ -1,6 +1,6 @@
 {
   "name": "@prior-it/geocoding",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Modern TypeScript library that allows geocoding and reverse geocoding through the OpenStreetMaps Nominatim API",
   "keywords": [
     "nomimatim",
