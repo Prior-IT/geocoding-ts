@@ -19,7 +19,7 @@ devDependencies:
     version: 10.9.2(@types/node@20.11.5)(typescript@5.3.3)
   ts-to-zod:
     specifier: ^3.6.1
-    version: 3.6.1
+    version: 3.7.2
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -2921,8 +2921,8 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /ts-to-zod@3.6.1:
-    resolution: {integrity: sha512-ZSEmaDPzsKJzSge6qqYt4W+VLadmWkRGRwCEBUo1zi76//U4YyePqs5Yn+jocuSCorbsySCMnLQa9auE4OBLFw==}
+  /ts-to-zod@3.7.2:
+    resolution: {integrity: sha512-NKdtqpPmTdNdYqvLmMZQ6PKHNQirhPdBO1dBLv/IlbGi1Itdk0a9zr2hKtVpuyaSKlPMeq5ttVnIdVAFjRhlww==}
     hasBin: true
     dependencies:
       '@oclif/core': 3.18.1
