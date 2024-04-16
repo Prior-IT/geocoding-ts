@@ -19,7 +19,7 @@ devDependencies:
     version: 10.9.2(@types/node@20.11.5)(typescript@5.4.5)
   ts-to-zod:
     specifier: ^3.6.1
-    version: 3.8.0
+    version: 3.8.3
   typescript:
     specifier: ^5.3.3
     version: 5.4.5
@@ -661,8 +661,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@oclif/core@3.18.1:
-    resolution: {integrity: sha512-l0LsjzGcqjbUEdeSBX6bdZieVmEv82Q0W3StiyaDMEnPZ9KLH28HrLpcZg6d50mCYW9CUZNzmRo6qrCHWrgLKw==}
+  /@oclif/core@3.26.3:
+    resolution: {integrity: sha512-e6Vwu+cb2Sn4qFFpmY1fQLRWIY5ugruMuN94xb7+kyUzxrirYjJATPhuCT1G5xj9Dk+hTMH+Sp6XcHcVTS1lHg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@types/cli-progress': 3.11.5
@@ -674,13 +674,14 @@ packages:
       cli-progress: 3.12.0
       color: 4.2.3
       debug: 4.3.4(supports-color@8.1.1)
-      ejs: 3.1.9
+      ejs: 3.1.10
       get-package-type: 0.1.0
       globby: 11.1.0
       hyperlinker: 1.0.0
       indent-string: 4.0.0
       is-wsl: 2.2.0
       js-yaml: 3.14.1
+      minimatch: 9.0.4
       natural-orderby: 2.0.3
       object-treeify: 1.1.33
       password-prompt: 1.1.3
@@ -1311,8 +1312,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /ejs@3.1.9:
-    resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
+  /ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
@@ -2352,6 +2353,13 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
+  /minimatch@9.0.4:
+    resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
+    engines: {node: '>=16 || 14 >=14.17'}
+    dependencies:
+      brace-expansion: 2.0.1
+    dev: true
+
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
@@ -2921,11 +2929,11 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /ts-to-zod@3.8.0:
-    resolution: {integrity: sha512-gfLezRXnzlBIdaqd9L26HmX0qGATdudP/a6wnc8daNL+0kk7/47LlpfF46KsWJsQ8rH9hPBgsZcQLX3QDdeVQQ==}
+  /ts-to-zod@3.8.3:
+    resolution: {integrity: sha512-Q2YK++PvoUVS/Ysz/bZ/dApjN+fsc/oukyJJbBtTbsaWg/5BsBJ3keJURcDSl0SGjE8fvGxYNGMRT1v7sBO6vA==}
     hasBin: true
     dependencies:
-      '@oclif/core': 3.18.1
+      '@oclif/core': 3.26.3
       '@typescript/vfs': 1.5.0
       case: 1.6.3
       chokidar: 3.5.3
