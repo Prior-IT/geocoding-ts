@@ -22,7 +22,7 @@ importers:
         version: 10.9.2(@types/node@20.11.5)(typescript@5.5.4)
       ts-to-zod:
         specifier: ^3.6.1
-        version: 3.11.0
+        version: 3.12.0
       typescript:
         specifier: ^5.3.3
         version: 5.5.4
@@ -1512,8 +1512,8 @@ packages:
       '@swc/wasm':
         optional: true
 
-  ts-to-zod@3.11.0:
-    resolution: {integrity: sha512-Inc2ko+16X/EBnrzsRnR6ql+TAxOfrJ6J9No+zqMW35zck2CvjXqXeTVdKA6VCKbyAXIBG8t2IOoACWz4Q1QAg==}
+  ts-to-zod@3.12.0:
+    resolution: {integrity: sha512-BSZI0F5ZMTHnOk75UGESAPtWaGrRgDq2WVrRXw6QrgpB3A+nAVW1HleE6QCavgsCkLo7khN2FrMUwrXHgqZqpg==}
     hasBin: true
 
   tslib@1.14.1:
@@ -3416,7 +3416,7 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  ts-to-zod@3.11.0:
+  ts-to-zod@3.12.0:
     dependencies:
       '@oclif/core': 3.26.3
       '@typescript/vfs': 1.5.0
